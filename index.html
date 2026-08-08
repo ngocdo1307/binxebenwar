@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Warcraft III Map Archive">
+  <title>War3 Maps</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html"><span class="brand-mark">W3</span><span>BINXEBEN</span></a>
+    <nav><a class="active" href="https://tranngocdo.netlify.app/">Tác giả</a></nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <span class="eyebrow">WARCRAFT III MAP</span>
+      <h1>Warcraft III</h1>
+      <p>Kho bản đồ Warcraft III cheats, fix, unlock...</p>
+      <div class="search-box">
+        <span>⌕</span>
+        <input id="searchInput" type="search" placeholder="Tìm tên map..." autocomplete="off">
+      </div>
+    </div>
+  </section>
+
+  <section class="container content">
+    <div class="toolbar">
+      <div>
+        <h2>Maps</h2>
+        <p id="resultCount"></p>
+      </div>
+    </div>
+
+    <div id="mapGrid" class="map-grid"></div>
+    <div id="emptyState" class="empty hidden">
+      <h3>Không tìm thấy map</h3>
+      <p>Thử tên khác.</p>
+    </div>
+
+    <div id="pagination" class="pagination"></div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-inner">
+    <span>xây dựng và thiết kế bởi TRẦN NGỌC ĐÔ</span>
+    <span>© <span id="year"></span></span>
+  </div>
+</footer>
+
+<script src="maps.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Map - War3 Maps</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html"><span class="brand-mark">W3</span><span>BINXEBEN</span></a>
+    <nav><a href="https://tranngocdo.netlify.app/">Tác giả</a></nav>
+  </div>
+</header>
+
+<main class="container detail-page">
+  <a class="back" href="index.html">← Quay lại danh sách</a>
+  <div id="detail"></div>
+</main>
+
+<footer>
+  <div class="container footer-inner">
+    <span>xây dựng và thiết kế bởi TRẦN NGỌC ĐÔ</span>
+    <span>© <span id="year"></span></span>
+  </div>
+</footer>
+
+<script src="maps.js"></script>
+<script>
+const id = new URLSearchParams(location.search).get("id");
+const map = MAPS.find(m => m.id === id);
+const detail = document.getElementById("detail");
+
+function esc(v) {
+  return String(v ?? "").replace(/[&<>"']/g, c => ({
+    "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#039;"
+  }[c]));
+}
+
+if (!map) {
+  detail.innerHTML = `
+    <div class="empty">
+      <h2>Không tìm thấy map</h2>
+      <p>Map này không tồn tại.</p>
+    </div>`;
+} else {
+  document.title = map.name + " - War3 Maps";
+  detail.innerHTML = `
+    <article class="detail-card">
+      <div class="detail-image">
+        <img src="${esc(map.image)}"
+             alt="${esc(map.name)}"
+             onerror="this.src='assets/placeholder.svg'">
+      </div>
+
+      <div class="detail-info">
+        <h1>${esc(map.name)}</h1>
+
+        <div class="notes">
+          ${map.notes ? esc(map.notes).replace(/\n/g, "<br>") : "Chưa có ghi chú cho map này."}
+        </div>
+
+        <div class="action-buttons">
+  <a class="download-btn"
+     href="${esc(map.downloadUrl)}"
+     target="_blank"
+     rel="noopener noreferrer">
+     ↓ DOWNLOAD
+  </a>
+
+  ${map.videoUrl ? `
+    <a class="video-btn"
+       href="${esc(map.videoUrl)}"
+       target="_blank"
+       rel="noopener noreferrer">
+       ▶ XEM VIDEO HƯỚNG DẪN
+    </a>
+  ` : ""}
+</div>
+      </div>
+    </article>
+  `;
+}
+
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
