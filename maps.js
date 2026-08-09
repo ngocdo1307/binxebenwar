@@ -116,7 +116,7 @@ mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war 
   {
   id: "map-008",
   name: "Hạo Kiếp Quãng Đời Còn Lại II",
-  image: "assets/8haokiepquangdoiconlaiII.jpg",
+  image: "assets/8haokiepquangdoiconlai.jpg",
   notes: ` MAP đã edit : Hạo Kiếp Quãng Đời Còn Lại II
 thể loại sinh tồn nhặt đồ + súng + đạn
 đồ sẽ rơi ngẫu nhiên mỗi vòng
