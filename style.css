@@ -326,3 +326,40 @@ footer { border-top: 1px solid var(--line); color: var(--muted); }
   .pagination { gap: 5px; }
   .page-btn { min-width: 34px; height: 36px; padding: 0 8px; }
 }
+.toolbar-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.notes-text {
+  white-space: pre-wrap;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+.maps-title,
+.section-btn {
+  min-height: 42px;
+  padding: 0 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 10px;
+  border: 1px solid var(--accent);
+
+  background: var(--accent);
+  color: #16120a;
+
+  font-weight: 800;
+  text-decoration: none;
+
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+
+  transition: 0.2s ease;
+}
+
+.maps-title:hover,
+.section-btn:hover {
+  filter: brightness(1.08);
+  transform: translateY(-1px);
+}
