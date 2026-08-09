@@ -33,7 +33,7 @@ binxebenvip1-24
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác`,
 
     downloadUrl: "https://drive.google.com/file/d/1L-tCJufo_FEr-VRke-l5iKlW9PcUOato/view?usp=drive_link",
-    videoUrl: "https://www.youtube.com/watch?v=XXXXXXXXXXX"
+    videoUrl: "https://youtu.be/3-ng55uVdUQ"
   },
   {
     id: "map-002",
