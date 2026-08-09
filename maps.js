@@ -115,10 +115,21 @@ mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war 
   },
   {
     id: "map-008",
-    name: "War Example",
-    image: "assets/map-008.jpg",
-    notes: "Ghi chú mẫu.",
-    downloadUrl: "https://drive.google.com/",
+    name: "Hạo Kiếp Quãng Đời Còn Lại II",
+    image: "assets/8haokiepquangdoiconlaiII.jpg",
+    notes: `MAP đã edit : Hạo Kiếp Quãng Đời Còn Lại II 
+
+thể loại sinh tồn nhặt đồ + súng + đạn
+đồ sẽ rơi ngẫn nhiên mỗi vòng
+
+map này không có gì để fix
+mình đã thêm cheats. mã : -binxebenwar
+
+khuyên nghị chỉ nên dùng lệnh -autoh 100 ( để auto bơm 100% máu )
+mỗi khi đổi sũng sẽ reset chỉ số nên lưu ý kẻo chết
+
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác`,
+    downloadUrl: "https://drive.google.com/file/d/1MS9OFAfkpQIrQTkW6b4HJ4WVBAHyCkvm/view?usp=sharing",
     videoUrl: "https://www.youtube.com/watch?v=XXXXXXXXXXX"
   },
   {
