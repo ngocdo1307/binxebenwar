@@ -130,7 +130,7 @@ mỗi khi đổi sũng sẽ reset chỉ số nên lưu ý kẻo chết
 
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác`,
     downloadUrl: "https://drive.google.com/file/d/1MS9OFAfkpQIrQTkW6b4HJ4WVBAHyCkvm/view?usp=sharing",
-    videoUrl: "https://www.youtube.com/watch?v=XXXXXXXXXXX"
+    videoUrl: "https://youtu.be/tAlf57X7OMI"
   },
   {
     id: "map-009",
