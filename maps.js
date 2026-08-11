@@ -149,7 +149,7 @@ mình chỉ test thôi chứ không dõ kkk
 
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác`,
     downloadUrl: "https://drive.google.com/file/d/11xgePuF1qCLxghE0jJjQPAY-Ddz9AoqD/view?usp=sharing",
-    videoUrl: "https://www.youtube.com/watch?v=XXXXXXXXXXX"
+    videoUrl: "https://youtu.be/KoCYdv0xltw"
   },
   {
     id: "map-010",
