@@ -134,7 +134,7 @@ mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war 
  {
     id: "map-009",
     name: "Hồi ức chi phong",
-    image: "9hoiucchiphong.jpg",
+    image: "assets/9hoiucchiphong.jpg",
     notes: `MAP đã edit : Hồi ức chi phong
 Hero defen
 
