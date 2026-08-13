@@ -153,11 +153,25 @@ mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war 
   },
   {
     id: "map-010",
-    name: "Custom Map Example",
-    image: "assets/map-010.jpg",
-    notes: "Ghi chú mẫu.",
-    downloadUrl: "https://drive.google.com/",
-    videoUrl: "https://www.youtube.com/watch?v=XXXXXXXXXXX"
+    name: "Luân Hồi Chi Ngục",
+    image: "assets/10luanhoichinguc.jpg",
+    notes: `MAP đã edit : Luân Hồi Chi Ngục
+Thể Loại: Hero defen
+
+unlock tất cả hero, tất cả chế độ xóa mọi giới hạn và cấm
+
+vàng x50
+điểm giết địch x50
+điểm thủ nhà x50
+map này cơ bản là không dùng gỗ
+dùng rất ít nên x vàng rồi đổi ra là được rồi nên mình không chỉnh gỗ
+
+vào game trọn chế độ xong gõ chat ## rồi bấm theo thứ tự : binxebenwar
+rồi mới trọn tướng sẽ được 1 cục đá tăng 100% tỷ lệ ép đồ ( xem video sẽ rõ )
+
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác`,
+    downloadUrl: "https://drive.google.com/file/d/1yNLenImciWTSY8ptpQMyBKDl9JwwglTi/view?usp=drive_link",
+    videoUrl: "https://youtu.be/Wz2ZAoNL8gc"
   },
   {
     id: "map-011",
