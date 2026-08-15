@@ -175,18 +175,35 @@ mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war 
   },
   {
     id: "map-011",
-    name: "Map 11",
-    image: "assets/map-011.jpg",
-    notes: "Ghi chú mẫu.",
-    downloadUrl: "https://drive.google.com/",
-    videoUrl: "https://www.youtube.com/watch?v=XXXXXXXXXXX"
+    name: "Lưu Lạc Thiên Nhai",
+    image: "assets/11luulacthiennhai.jpg",
+    notes: `MAP đã edit : Lưu Lạc Thiên Nhai
+Hero defen
+
+Fix nâng nhà chính x100 lần chỉ số
+gốc 2,20,100 lên 200,2000,10.000
+Bug khi nâng mà không đủ điểm + 500.000 vàng
+Bug mua thạch 10% được 500 gỗ ( xem video sẽ rõ )
+
+
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác`,
+    downloadUrl: "https://drive.google.com/file/d/1m1pVvnMQFFZ2tLLJmjwLB1rKGxYkqKtX/view?usp=sharing",
+    videoUrl: "https://youtu.be/lXus2wOpkn0"
   },
   {
     id: "map-012",
-    name: "Map 12",
-    image: "assets/map-012.jpg",
-    notes: "Ghi chú mẫu.",
-    downloadUrl: "https://drive.google.com/",
+    name: "Tam Giới Hiệp Đồ",
+    image: "12tamgioihiepdo.jpg",
+    notes: `MAP đã edit : Tam Giới Hiệp Đồ
+
+
+Map này hơi nhàm.
+mình thêm trực tiếp lệnh: binxeben
+mỗi lần + 500 gỗ. rồi thích làm gì làm =))
+
+
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác`,
+    downloadUrl: "https://drive.google.com/file/d/1O2RZry1B59vAAVSok70hMnZcJcPP2-5k/view?usp=drive_link",
     videoUrl: "https://www.youtube.com/watch?v=XXXXXXXXXXX"
   },
   {
