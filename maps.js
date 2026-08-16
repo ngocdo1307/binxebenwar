@@ -193,18 +193,18 @@ mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war 
   {
     id: "map-012",
     name: "Tam Giới Hiệp Đồ",
-    image: "12tamgioihiepdo.jpg",
+    image: "assets/12tamgioihiepdo.jpg",
     notes: `MAP đã edit : Tam Giới Hiệp Đồ
 
 
 Map này hơi nhàm.
 mình thêm trực tiếp lệnh: binxeben
-mỗi lần + 500 gỗ. rồi thích làm gì làm =))
+mỗi lần + 1000 gỗ. rồi thích làm gì làm =))
 
 
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác`,
-    downloadUrl: "https://drive.google.com/file/d/1O2RZry1B59vAAVSok70hMnZcJcPP2-5k/view?usp=drive_link",
-    videoUrl: "https://www.youtube.com/watch?v=XXXXXXXXXXX"
+    downloadUrl: "https://drive.google.com/file/d/1OpaNiJYE1cKOtuLqY1VsRkImr9zP41Qy/view?usp=sharing",
+    videoUrl: "https://youtu.be/VdO1d3RtGZ0"
   },
   {
     id: "map-012",
