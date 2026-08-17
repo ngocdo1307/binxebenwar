@@ -15,7 +15,7 @@
 </header>
 
 <main class="container detail-page">
-  <a class="back" href="index.html">← Quay lại danh sách</a>
+  <a class="back" id="backBtn" href="index.html">← Quay lại danh sách</a>
   <div id="detail"></div>
 </main>
 
@@ -31,7 +31,10 @@
 const id = new URLSearchParams(location.search).get("id");
 const map = MAPS.find(m => m.id === id);
 const detail = document.getElementById("detail");
+const page = Number(new URLSearchParams(location.search).get("page")) || 1;
 
+document.getElementById("backBtn").href =
+  page > 1 ? `index.html?page=${page}` : "index.html";
 function esc(v) {
   return String(v ?? "").replace(/[&<>"']/g, c => ({
     "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#039;"
