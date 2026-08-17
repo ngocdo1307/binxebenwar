@@ -4,6 +4,7 @@ let query = "";
 
 const grid = document.getElementById("mapGrid");
 const pagination = document.getElementById("pagination");
+const paginationTop = document.getElementById("paginationTop");
 const emptyState = document.getElementById("emptyState");
 const resultCount = document.getElementById("resultCount");
 const searchInput = document.getElementById("searchInput");
@@ -60,8 +61,12 @@ function pageNumbers(totalPages) {
 }
 
 function renderPagination(totalPages) {
+  const paginations = [paginationTop, pagination];
+
   if (totalPages <= 1) {
-    pagination.innerHTML = "";
+    paginations.forEach(p => {
+      if (p) p.innerHTML = "";
+    });
     return;
   }
 
@@ -94,10 +99,16 @@ function renderPagination(totalPages) {
     </button>
   `;
 
-  pagination.innerHTML = html;
+  paginations.forEach(p => {
+    if (!p) return;
 
-  pagination.querySelectorAll("button[data-page]").forEach(btn => {
-    btn.addEventListener("click", () => goPage(Number(btn.dataset.page)));
+    p.innerHTML = html;
+
+    p.querySelectorAll("button[data-page]").forEach(btn => {
+      btn.addEventListener("click", () => {
+        goPage(Number(btn.dataset.page));
+      });
+    });
   });
 }
 
@@ -113,7 +124,7 @@ function render() {
   resultCount.textContent = `${maps.length} map${maps.length === 1 ? "" : "s"}`;
 
   grid.innerHTML = visible.map(map => `
-    <a class="map-card" href="map.html?id=${encodeURIComponent(map.id)}">
+    <a class="map-card" href="map.html?id=${encodeURIComponent(map.id)}&page=${currentPage}">
       <div class="map-image-wrap">
         <img class="map-image"
              src="${escapeHtml(map.image)}"
