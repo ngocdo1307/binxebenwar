@@ -132,7 +132,10 @@ nav a:hover, nav a.active { color: var(--text); }
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 20px;
 }
-
+.pagination-top {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
 .map-card {
   display: block;
   overflow: hidden;
