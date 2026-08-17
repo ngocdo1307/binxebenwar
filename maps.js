@@ -207,15 +207,29 @@ mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war 
     videoUrl: "https://youtu.be/VdO1d3RtGZ0"
   },
   {
-    id: "map-012",
-    name: "Map 12",
-    image: "assets/map-012.jpg",
-    notes: "Ghi chú mẫu.",
-    downloadUrl: "https://drive.google.com/",
-    videoUrl: "https://www.youtube.com/watch?v=XXXXXXXXXXX"
+    id: "map-013",
+    name: "Thủ hộ jaina",
+    image: "assets/13thuhojaina.jpg",
+    notes: `MAP đã edit : Thủ hộ jaina
+Hero desfen
+lệnh mở khóa mọi điều kiện của hero: unlockfix
+gõ trước khi trọn hero nhé.
+mình thêm lệnh này để các pro thử độ khó khi chơi không bật fix =))
+
+Mỗi khi chết nhận được (500 x lever) vàng
+gốc khi chết bị trừ (50x lever) vàng
+
+vàng thu hoạch từ nhà dân x100 lần
+vàng x100 lần ( với đồ + vàng )
+gỗ x100 lần với boss
+
+nhiều cái khác nữa mà chỉnh nhiều quá không nhớ @@
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác`,
+    downloadUrl: "https://drive.google.com/file/d/1NHxFjZ0RQ6WBQedZB27iEhBUdh93XvJt/view?usp=sharing",
+    videoUrl: "https://youtu.be/cAlteJcK-r8"
   },
   {
-    id: "map-012",
+    id: "map-014",
     name: "Map 12",
     image: "assets/map-012.jpg",
     notes: "Ghi chú mẫu.",
