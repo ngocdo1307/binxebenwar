@@ -230,10 +230,16 @@ mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war 
   },
   {
     id: "map-014",
-    name: "Map 12",
-    image: "assets/map-012.jpg",
-    notes: "Ghi chú mẫu.",
-    downloadUrl: "https://drive.google.com/",
-    videoUrl: "https://www.youtube.com/watch?v=XXXXXXXXXXX"
+    name: "Thần Dụ Chương Cuối Luân Hồi Phi Thăng",
+    image: "assets/14thanduchuongcuoi.jpg",
+    notes: `MAP đã edit : Thần Dụ Chương Cuối Luân Hồi Phi Thăng
+
+Map này mình không hiểu cách chơi nên chỉ chơi cơ bản các bạn tự mò nhé
+vip làm bố rồi nên fix 1 tỷ điểm tích lũy dùng tẹt ga
+gỗ x100 lần
+
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác`,
+    downloadUrl: "https://drive.google.com/file/d/1FLXO7hqPEgGTozFbIH7ueYlm57Vr4ng8/view?usp=sharing",
+    videoUrl: "https://youtu.be/Yg-YStkEO2U"
   }
 ];
