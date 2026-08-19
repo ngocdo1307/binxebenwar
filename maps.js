@@ -241,5 +241,29 @@ gỗ x100 lần
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác`,
     downloadUrl: "https://drive.google.com/file/d/1FLXO7hqPEgGTozFbIH7ueYlm57Vr4ng8/view?usp=sharing",
     videoUrl: "https://youtu.be/Yg-YStkEO2U"
+  },
+  {
+    id: "map-015",
+    name: "Thứ nguyên truyền tụng",
+    image: "assets/15thunguyentruyentung.jpg",
+    notes: `MAP đã edit : Thứ nguyên truyền tụng
+
+code binxebenwar1 : Mở khóa Toàn bộ Tướng Ẩn + Đặc quyền
+code binxebenwar2 : Mở khóa Toàn bộ VIP / Special Feature
+code binxebenwar3 : Nhận Phúc lợi : 100k vàng 1000 gỗ 1000 chỉ số
+
+code unlockfix : Mở khóa toàn bộ tướng
+và x10 phần thưởng ở nv Bắt lấy hồ điệp
+( không liên quan tới chính tuyến cho pro chơi chay )
+
+mình đã x10 cho người chơi chay rồi khi nhập code sẽ x10 nữa là 100 lần
+( PRO CHƠI CHAY KHÔNG CẦN NHẬP GÌ CẢ VÌ ĐÃ CHỈNH X10 RỒI )
+CHƠI THỬ ĐI NẾU KHÓ QUÁ HÃY QUAY LẠI VÀ NHẬP CODE =))
+MAP LÊN ĐỒ ĐƠN GIẢN NHƯNG TƯƠNG ĐỐI KHÓ LÊN
+TUI NHẬP FULL CODE MÀ END GAME KHÔNG MAX ĐƯỢC ĐỒ
+
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
+    downloadUrl: "https://drive.google.com/file/d/1Rcf5YOnNatlu9MlIViky7nidL04dPTK6/view?usp=drive_link",
+    videoUrl: "https://youtu.be/Dc2dYqB12Z8"
   }
 ];
