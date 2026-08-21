@@ -265,5 +265,28 @@ TUI NHẬP FULL CODE MÀ END GAME KHÔNG MAX ĐƯỢC ĐỒ
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
     downloadUrl: "https://drive.google.com/file/d/1Rcf5YOnNatlu9MlIViky7nidL04dPTK6/view?usp=drive_link",
     videoUrl: "https://youtu.be/Dc2dYqB12Z8"
+  },
+  {
+    id: "map-016",
+    name: "Một Kiếm Nổ Tung Thiên Môn",
+    image: "assets/16motkiemnotung.jpg",
+    notes: `MAP đã edit : Một Kiếm Nổ Tung
+Hero defens
+map sẽ mở độ khó tiếp theo mỗi khi bạn win chế độ trước đó
+càng sau càng mạnh càng nhiều boss hơn
+
+Map chỉ load tên 1 lần duy nhất để trao vip nên không can thiệp sau khi vào game được
+muốn max vip các bạn đặt tên khi tạo map, vào map bạn bè ( chơi nhiều người 1 tên cũng được )
+chính xác viết hoa viết thường nhé : BinXeBen
+max vip là làm Bố của map rồi.
+
+code unlockfix : Bật chế độ ông nội của map =))
+vàng, gỗ, thịt dùng không bao giờ hết
+
+nên chơi chay trước cho vui khó quá thì bật vip thôi . còn phá map thì hãy bật fix :v
+
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác`,
+    downloadUrl: "https://drive.google.com/file/d/12fAnqj1PVmlrl9G7YVa4FcPNQPV95DeO/view?usp=drive_link",
+    videoUrl: "https://youtu.be/Yg-YStkEO2U"
   }
 ];
