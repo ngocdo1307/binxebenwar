@@ -287,6 +287,6 @@ nên chơi chay trước cho vui khó quá thì bật vip thôi . còn phá map 
 
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác`,
     downloadUrl: "https://drive.google.com/file/d/12fAnqj1PVmlrl9G7YVa4FcPNQPV95DeO/view?usp=drive_link",
-    videoUrl: "https://youtu.be/Yg-YStkEO2U"
+    videoUrl: "https://youtu.be/Swu7Ueku93c"
   }
 ];
