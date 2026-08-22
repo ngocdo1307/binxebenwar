@@ -288,5 +288,26 @@ nên chơi chay trước cho vui khó quá thì bật vip thôi . còn phá map 
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác`,
     downloadUrl: "https://drive.google.com/file/d/12fAnqj1PVmlrl9G7YVa4FcPNQPV95DeO/view?usp=drive_link",
     videoUrl: "https://youtu.be/Swu7Ueku93c"
+  },
+  {
+    id: "map-017",
+    name: "Vân Giới Chi Loạn",
+    image: "assets/17vangioichiloan.jpg",
+    notes: `MAP đã edit : Vân Giới Chi Loạn
+Hero defens
+
+code: unlockfix
+tăng nv giết sâu từ 3000 vàng 
+lên 50k vàng 3k exp 100 điểm thủ nhà 100 điểm tiên ma 100 chỉ số all
+xem video để biết cách làm nếu chưa hiểu. map quái yếu nên không tăng nhiều
+sau khi chơi 1 tiếng thì thấy 100 all hơi ít nên tăng lên 1000 all nhé
+map khá rộng và nhiều nv, đồ boss
+lên đồ đều có hướng dẫn cụ thể đánh con boss nào
+
+nên chơi chay trước cho vui khó quá thì bật hãy bật fix :v
+
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
+    downloadUrl: "https://drive.google.com/file/d/1-TUp1Sb5iArGaxz0CIoYzqz8PKqt3l5Z/view?usp=drive_link",
+    videoUrl: "https://youtu.be/ck5jOaYISuE"
   }
 ];
