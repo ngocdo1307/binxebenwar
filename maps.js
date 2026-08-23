@@ -309,5 +309,26 @@ nên chơi chay trước cho vui khó quá thì bật hãy bật fix :v
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
     downloadUrl: "https://drive.google.com/file/d/1-TUp1Sb5iArGaxz0CIoYzqz8PKqt3l5Z/view?usp=drive_link",
     videoUrl: "https://youtu.be/ck5jOaYISuE"
+  },
+  {
+    id: "map-018",
+    name: "Tru Tiên Thế Giới",
+    image: "assets/18trutienthegioi.jpg",
+    notes: `MAP đã edit : Tru Tiên Thế Giới
+Hero defens
+
+code: unlockfix : giết địch +10k gold 100 gỗ 10 tích lũy
+code: binxebenwar : kích hoạt 100 cái đặc quyền.nhiều quá liệt kê không hết. Gần như làm bố map
+lưu ý : gõ trước khi trọn tướng.
+
+Bố map chơi mà không thắng nổi map thì chuyển qua bản vip2 nhé =))
+Bản v2 Kích full Thành tựu. mở khóa all giới hạn, thăng cấp lên Ông nội map :v
+
+nên chơi chay trước cho vui khó quá thì bật hãy bật fix :v
+
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
+    downloadUrl: "https://drive.google.com/file/d/1nb7g4oEe9aVyGpyzgGAS2YXlbs7znMK-/view?usp=drive_link/",
+    downloadUrl2: "https://drive.google.com/file/d/1KYh7XdaBQub_chdaGxY5vVOKSX8IlPYP/view?usp=drive_link",
+    videoUrl: "https://youtu.be/csHfK3-xjpg"
   }
 ];
