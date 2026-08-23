@@ -71,6 +71,14 @@ if (!map) {
      rel="noopener noreferrer">
      ↓ DOWNLOAD
   </a>
+  ${map.downloadUrl2 ? `
+    <a class="download-btn"
+       href="${esc(map.downloadUrl2)}"
+       target="_blank"
+       rel="noopener noreferrer">
+       ↓ DOWNLOAD v2
+    </a>
+  ` : ""}
 
   ${map.videoUrl ? `
     <a class="video-btn"
