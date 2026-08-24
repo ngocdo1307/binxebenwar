@@ -9,6 +9,15 @@ const emptyState = document.getElementById("emptyState");
 const resultCount = document.getElementById("resultCount");
 const searchInput = document.getElementById("searchInput");
 
+function removeVietnameseTones(str) {
+  return String(str ?? "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/đ/g, "d")
+    .replace(/Đ/g, "D")
+    .toLowerCase();
+}
+
 function escapeHtml(value) {
   return String(value ?? "").replace(/[&<>"']/g, c => ({
     "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#039;"
@@ -16,12 +25,12 @@ function escapeHtml(value) {
 }
 
 function getFilteredMaps() {
-  const q = query.trim().toLowerCase();
+  const q = removeVietnameseTones(query.trim());
 
   if (!q) return MAPS;
 
   return MAPS.filter(map =>
-    String(map.name || "").toLowerCase().includes(q)
+    removeVietnameseTones(map.name).includes(q)
   );
 }
 
@@ -113,7 +122,7 @@ function renderPagination(totalPages) {
 }
 
 function render() {
-  const maps = getFilteredMaps();
+  const maps = [...getFilteredMaps()].reverse();
   const totalPages = Math.max(1, Math.ceil(maps.length / PER_PAGE));
 
   if (currentPage > totalPages) currentPage = totalPages;
