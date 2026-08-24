@@ -330,5 +330,19 @@ mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war 
     downloadUrl: "https://drive.google.com/file/d/1nb7g4oEe9aVyGpyzgGAS2YXlbs7znMK-/view?usp=drive_link/",
     downloadUrl2: "https://drive.google.com/file/d/1KYh7XdaBQub_chdaGxY5vVOKSX8IlPYP/view?usp=drive_link",
     videoUrl: "https://youtu.be/csHfK3-xjpg"
+  },
+  {
+    id: "map-019",
+    name: "Phòng Tuyến Cuối Cùng",
+    image: "assets/19phongtuyencuoicung.jpg",
+    notes: `MAP đã edit : Phòng tuyến cuối cùng
+hero defens
+
+code: unlockfix : mỗi kill 10k vàng 10 chỉ số
+
+nên chơi chay trước cho vui khó quá thì bật hãy bật fix :v
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
+    downloadUrl: "https://drive.google.com/file/d/1epDceD8kqxHYUtqV3-as7sW0UJLsECVt/view?usp=drive_link",
+    videoUrl: "https://youtu.be/78zn7KfH5Os"
   }
 ];
