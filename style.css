@@ -69,9 +69,14 @@ nav a:hover, nav a.active { color: var(--text); }
 .hero {
   padding: 64px 0 42px;
   border-bottom: 1px solid var(--line);
-  background:
-    radial-gradient(circle at 75% 10%, rgba(229,169,61,.13), transparent 32%),
-    linear-gradient(180deg, #11151b, #0b0d11);
+
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.30)),
+    url("assets/anhnen1.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .eyebrow {
