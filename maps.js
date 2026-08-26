@@ -344,5 +344,43 @@ nên chơi chay trước cho vui khó quá thì bật hãy bật fix :v
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
     downloadUrl: "https://drive.google.com/file/d/1epDceD8kqxHYUtqV3-as7sW0UJLsECVt/view?usp=drive_link",
     videoUrl: "https://youtu.be/78zn7KfH5Os"
+  },
+  {
+    id: "map-020",
+    name: "Trái Bưởi Phòng Thủ",
+    image: "assets/20traibuoiphongthu.jpg",
+    notes: `MAP đã edit : Trái Bưởi Phòng Thủ
+hero defens
+
+code: unlockfix : mỗi kill 10k vàng 10 gỗ 200 chỉ số
+Không phải tất cả quái. xem video để tối ưu nhất
+map này nặng về model vip chứ cơ bản map khá đơn giản, lên đồ cũng dễ.
+
+Mình chỉ share file w3x các file model, music thì dùng của bác trường nhé
+có thể chỉ cần tải mỗi file w3x là chơi được còn muốn hiển thị tốt thì tải full
+bản full ~5gb đây chỉ là bản thiếu 250mb.
+link full: Ở Download 2 tải hết về ném vào trong thư mục war
+nào mà sếp trường đóng link thì ib xin nhé :v  fb: trường nguyễn
+
+nên chơi chay trước cho vui khó quá thì bật hãy bật fix :v
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
+    downloadUrl: "https://drive.google.com/file/d/1rEIvMdmfuN2uhYvfawKzbEETpmOF5Mp-/view?usp=drive_link",
+    downloadUrl2: "https://l1nk.dev/2qkaspv",
+    videoUrl: "https://youtu.be/scgeST7_33Y"
+  },
+  {
+    id: "map-021",
+    name: "Thiên Giác Thành",
+    image: "assets/21thiengiacthanh.jpg",
+    notes: `MAP đã edit : Thiên Giác Thành
+Chơi như plants and zombie
+
+code: unlockfix : mỗi kill sẽ nhận được 200 ánh sáng ( 200 vàng )
+
+
+nên chơi chay trước cho vui khó quá thì bật hãy bật fix :v
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
+    downloadUrl: "https://drive.google.com/file/d/1Bcz_PZs-BmfsXgHltZAXlo3F5vnw17MI/view?usp=drive_link",
+    videoUrl: "https://youtu.be/_8W5sXZ2eCk"
   }
 ];
