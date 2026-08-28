@@ -382,5 +382,24 @@ nên chơi chay trước cho vui khó quá thì bật hãy bật fix :v
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
     downloadUrl: "https://drive.google.com/file/d/1Bcz_PZs-BmfsXgHltZAXlo3F5vnw17MI/view?usp=drive_link",
     videoUrl: "https://youtu.be/_8W5sXZ2eCk"
+  },
+  {
+    id: "map-022",
+    name: "Dục Hỏa Trùng Sinh",
+    image: "assets/22duchoatrungsinh.jpg",
+    notes: `MAP đã edit : Dục Hỏa Trùng Sinh
+Hero Defens
+
+mở full thương thành đi cùng là các hero thương thành
+
+code: unlockfix
+mỗi kill sẽ nhận được 10K gold 100 ma tinh 500 chỉ số
+map đồ quá nhiều mà là riêng lẻ chứ không lên 1 cái từ đầu
+
+
+nên chơi chay trước cho vui khó quá thì bật hãy bật fix :v
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
+    downloadUrl: "https://drive.google.com/file/d/1-zcswpSwlSb8IMwvI6ICTiqBLD000hDx/view?usp=drive_link",
+    videoUrl: "https://youtu.be/wLDPvbkHelg"
   }
 ];
