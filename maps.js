@@ -401,5 +401,23 @@ nên chơi chay trước cho vui khó quá thì bật hãy bật fix :v
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
     downloadUrl: "https://drive.google.com/file/d/1-zcswpSwlSb8IMwvI6ICTiqBLD000hDx/view?usp=drive_link",
     videoUrl: "https://youtu.be/wLDPvbkHelg"
+  },
+  {
+    id: "map-023",
+    name: "Thần Chi Lăng",
+    image: "assets/23thanchilang.jpg",
+    notes: `MAP đã edit : Thần Chi Lăng
+Hero Defens
+
+mở full tướng
+99999 điểm tích lũy
+
+code: unlockfix
+mỗi kill sẽ nhận được 10K gold 10 gỗ 200 chỉ số
+
+nên chơi chay trước cho vui khó quá thì bật hãy bật fix :v
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
+    downloadUrl: "https://drive.google.com/file/d/1WxKARablJB576syc6_xEV0izpHzHnnjj/view?usp=drive_link",
+    videoUrl: "https://youtu.be/aj9pYfDuTlA"
   }
 ];
