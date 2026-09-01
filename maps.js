@@ -419,5 +419,28 @@ nên chơi chay trước cho vui khó quá thì bật hãy bật fix :v
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
     downloadUrl: "https://drive.google.com/file/d/1WxKARablJB576syc6_xEV0izpHzHnnjj/view?usp=drive_link",
     videoUrl: "https://youtu.be/aj9pYfDuTlA"
+  },
+  {
+    id: "map-024",
+    name: "Võ Hiệp Kiếm Các",
+    image: "assets/24vohiepkiemcac.jpg",
+    notes: `MAP đã edit : Võ Hiệp Kiếm Các
+Hero Defens
+
+mở full tướng vip, nhận quà vip
+
+nhà chính là hero người chơi ảo nên không tăng chỉ số mỗi kill
+tránh mất cân bằng cho người muốn chơi chay
+
+thay vào đó fix nhiện vụ giết gà x100 lần
+80000 exp, 120k gold
+kèm fix + 1000 tất cả chỉ số
+auto nhận và trả nhiện vụ luôn ( cần nhận lần đầu )
+cơ bản thì cứ fam gà là win rồi còn đồ khó quá các bạn tự mò
+
+nên chơi chay trước cho vui khó quá thì bật hãy bật fix :v
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
+    downloadUrl: "https://drive.google.com/file/d/1Qv6Gwn0Cpd8C5KiZcjDoogHI30rjqQ_r/view?usp=drive_link",
+    videoUrl: "https://youtu.be/mT9QlFhwHZY"
   }
 ];
