@@ -442,5 +442,27 @@ nên chơi chay trước cho vui khó quá thì bật hãy bật fix :v
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
     downloadUrl: "https://drive.google.com/file/d/1Qv6Gwn0Cpd8C5KiZcjDoogHI30rjqQ_r/view?usp=drive_link",
     videoUrl: "https://youtu.be/mT9QlFhwHZY"
+  },
+  {
+    id: "map-025",
+    name: "Cương Thi Đảo 2026",
+    image: "assets/25cuongthidao2026.jpg",
+    notes: `MAP đã edit : Cương Thi Đảo 2026
+sinh tồn zombie
+
+game mở thêm độ khó mỗi lần win map
+đã unlock full tướng và thông thạo tướng ( mở khóa skill )
+
+code: binxeben
+100k gold 1 lần nhập
+
+fix rất nhiều thứ linh tinh nữa
+như giảm 10 lần số lượng nâng cấp kiếm, tăng chỉ số nhận được khi fam
+cho người chơi vào danh sách vip ..vân..vân..và..mây..mây..
+
+nên chơi chay trước cho vui khó quá thì hãy bật fix :v
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
+    downloadUrl: "https://drive.google.com/file/d/1ohQkQPCgfQQwI556p8OqqpGfFSuQJxMh/view?usp=drive_link",
+    videoUrl: "https://youtu.be/vYBRk-HRHBM"
   }
 ];
