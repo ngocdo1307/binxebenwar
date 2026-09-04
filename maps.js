@@ -365,7 +365,7 @@ nào mà sếp trường đóng link thì ib xin nhé :v  fb: trường nguyễn
 nên chơi chay trước cho vui khó quá thì bật hãy bật fix :v
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
     downloadUrl: "https://drive.google.com/file/d/1rEIvMdmfuN2uhYvfawKzbEETpmOF5Mp-/view?usp=drive_link",
-    downloadUrl2: "https://l1nk.dev/2qkaspv",
+    downloadUrl2: "https://drive.google.com/drive/u/0/folders/1FQacEG8kNiCbqgDbZqDdluAdpBkD96ae?fbclid",
     videoUrl: "https://youtu.be/scgeST7_33Y"
   },
   {
@@ -464,5 +464,25 @@ nên chơi chay trước cho vui khó quá thì hãy bật fix :v
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
     downloadUrl: "https://drive.google.com/file/d/1ohQkQPCgfQQwI556p8OqqpGfFSuQJxMh/view?usp=drive_link",
     videoUrl: "https://youtu.be/vYBRk-HRHBM"
+  },
+  {
+    id: "map-026",
+    name: "Ngạo Đấu Lăng Thiên II",
+    image: "assets/26ngaodaulangthien.jpg",
+    notes: `MAP đã edit : Ngạo Đấu Lăng Thiên II
+Hero Defens
+
+để ý mấy con boss wave kill one hit nát nhà chủ
+quái ra thì def cao tí không nó đánh sập nhà là thua
+
+code: unlockfix
+10k gold 10 gỗ 50 all chỉ số
+
+map có rất nhiều đồ, không lên hết được các bạn tự mò
+
+nên chơi chay trước cho vui khó quá thì hãy bật fix :v
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
+    downloadUrl: "https://drive.google.com/file/d/1dp-BWqh7B0ExZGXI1z6uIs2gfDvsF5m5/view?usp=drive_link",
+    videoUrl: "https://youtu.be/mNKKik254DA"
   }
 ];
