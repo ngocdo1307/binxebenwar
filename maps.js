@@ -484,5 +484,20 @@ nên chơi chay trước cho vui khó quá thì hãy bật fix :v
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
     downloadUrl: "https://drive.google.com/file/d/1dp-BWqh7B0ExZGXI1z6uIs2gfDvsF5m5/view?usp=drive_link",
     videoUrl: "https://youtu.be/mNKKik254DA"
+  },
+  {
+    id: "map-027",
+    name: "Tinh Cầu Chiến Đội",
+    image: "assets/27tinhcauchiendoi.jpg",
+    notes: `MAP đã edit : Tinh Cầu Chiến Đội
+sinh tồn
+
+code: unlockfix
+1 kill 500 gold 5 all chỉ số
+
+nên chơi chay trước cho vui khó quá thì hãy bật fix :v
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
+    downloadUrl: "https://drive.google.com/file/d/16GBU2m4ND5fcsIcCsuqDWOknDSAi8ojG/view?usp=drive_link",
+    videoUrl: "https://youtu.be/DCsoUJ6kkE0"
   }
 ];
