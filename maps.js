@@ -499,5 +499,48 @@ nên chơi chay trước cho vui khó quá thì hãy bật fix :v
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
     downloadUrl: "https://drive.google.com/file/d/16GBU2m4ND5fcsIcCsuqDWOknDSAi8ojG/view?usp=drive_link",
     videoUrl: "https://youtu.be/DCsoUJ6kkE0"
+  },
+  {
+    id: "map-028",
+    name: "Ác Ma Đột Kích",
+    image: "assets/28acmadotkich.jpg",
+    notes: `MAP đã edit : Ác Ma Đột Kích
+Hero Defens
+
+code: unlockfix
+1 kill +100 gold +10 linh hồn +1 all chỉ số
+
+map khá đơn giản và dễ chơi. 
+nên chơi chay trước cho vui khó quá thì hãy bật fix :v
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
+    downloadUrl: "https://drive.google.com/file/d/1H8GFKLrWzE1KsO1qbvf-3AczA94t2MfF/view?usp=drive_link",
+    videoUrl: "https://youtu.be/w94w_j9Muwo"
+  },
+  {
+    id: "map-029",
+    name: "Không Thể Tiến Hóa",
+    image: "assets/29khongthetienhoa.jpg",
+    notes: `MAP đã edit : Không Thể Tiến Hóa
+Sinh Tồn - Nâng Cấp
+
+code: unlockfix : 100k Gold 1 lần nhập
+code tân thủ cho ai cần : qqlb
+
+map unlock 1 tỷ thứ kể không hết.
+có cái ẩn cái hiện nhưng là đã kích gần full vip với thương thành rồi nhé
+chỉ còn 1 vài không mò thấy mã
+vip, vượt ải, số boss đã đánh, thành tựu nâng hết lên 999 
+giết địch +5đ (xung đột với vip nên tối đa chỉ được 5)
+9999 điểm thông quan ( ải thường )
+9999 điểm thông quan điên cuồng ( ải khó 9 trở lên )
+
+Đồ fam quái x100 lần chỉ số ( đồ cấp 5 đánh quái 1đ thì lên 100đ)
+có tác dụng cả 2 đồ vip cấp 100
+
+map gốc trên youtube thevangaming các bạn tải về thử trước nhé 
+nên chơi chay trước cho vui khó quá thì hãy bật fix :v
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
+    downloadUrl: "https://drive.google.com/file/d/1Wm-CDZrzfKn9Z3emz-U2mD1m_IwEAAPU/view?usp=drive_link",
+    videoUrl: "https://youtu.be/jEjXqH3QPR0"
   }
 ];
