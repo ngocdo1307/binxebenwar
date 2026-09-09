@@ -542,5 +542,29 @@ nên chơi chay trước cho vui khó quá thì hãy bật fix :v
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
     downloadUrl: "https://drive.google.com/file/d/1Wm-CDZrzfKn9Z3emz-U2mD1m_IwEAAPU/view?usp=drive_link",
     videoUrl: "https://youtu.be/jEjXqH3QPR0"
+  },
+  {
+    id: "map-030",
+    name: "Kinh Thế Thần Tướng",
+    image: "assets/30kinhthethantuong.jpg",
+    notes: `MAP đã edit : Kinh Thế Thần Tướng
+Hero Defen
+
+đã unlock full hero, nhận full hộp quà (có thể nhận tiếp lần 2 bằng code bên dưới)
+unlock rất nhiều điều kiện của map
+đã kích hoạt quyền admin map cho tất cả người chơi với rất nhiều chức năng
+có thể mở ra xem hoặc chỉ cần biết 1 code chính: binxebenvip
+Cộng ngay 500,000 Vàng. 100,000 Gỗ. 100,000 Quân Công. 10,000 giết địch
+
+code: unlockfix, binxebenwar, binxebenwar1, binxebenwar2, binxebenwar3
+
+unlock tùm lum hết không nhớ nổi. auto vào game là tự nhận hết rồi
+tăng người chơi lên Bố của map rồi chỉ việc win thôi
+
+map gốc trên kênh thevangaming các bác qua đó chơi thử rồi quay nha :v
+nên chơi chay trước cho vui khó quá thì hãy bật fix :v
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
+    downloadUrl: "https://drive.google.com/file/d/1EWf516Jujh__d7GRWZLa0wq7P0aS-iV4/view?usp=drive_link",
+    videoUrl: "https://youtu.be/Rr9ppvM68Wo"
   }
 ];
