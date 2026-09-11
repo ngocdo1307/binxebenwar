@@ -570,7 +570,7 @@ mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war 
   {
     id: "map-031",
     name: "Mộng Ảo Trừ Yêu",
-    image: "assets/3mongaotruyeu.jpg",
+    image: "assets/31mongaotruyeu.jpg",
     notes: `MAP đã edit : Mộng Ảo Trừ Yêu
 RPG vượt ải ép trang bị
 
