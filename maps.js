@@ -566,5 +566,24 @@ nên chơi chay trước cho vui khó quá thì hãy bật fix :v
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
     downloadUrl: "https://drive.google.com/file/d/1EWf516Jujh__d7GRWZLa0wq7P0aS-iV4/view?usp=drive_link",
     videoUrl: "https://youtu.be/Rr9ppvM68Wo"
+  },
+  {
+    id: "map-031",
+    name: "Mộng Ảo Trừ Yêu",
+    image: "assets/3mongaotruyeu.jpg",
+    notes: `MAP đã edit : Mộng Ảo Trừ Yêu
+RPG vượt ải ép trang bị
+
+map cày cuốc nên không có gì để unlock
+code: binxebenwar : 5k exp, 5k vàng, 5k điểm tu vi, 100 điểm tiềm lực,
+quái theo cấp người chơi nên lệnh exp để lên cấp học skill không lưu vào map
+sau khi test thì thấy hơi ít nên sửa lại
+20k exp 50k điểm tu vi, 20k vàng 100đ tiềm lực mỗi lần nhập code
+
+map gốc trên kênh thevangaming các bác qua đó chơi thử rồi quay nha :v
+nên chơi chay trước cho vui khó quá thì hãy bật fix :v
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
+    downloadUrl: "https://drive.google.com/file/d/1iqrubswAlPy1-r1X_N_3FpytP9popj3m/view?usp=drive_link",
+    videoUrl: "https://youtu.be/i5A_0UlsifA"
   }
 ];
