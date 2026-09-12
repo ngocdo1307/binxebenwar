@@ -585,5 +585,25 @@ nên chơi chay trước cho vui khó quá thì hãy bật fix :v
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
     downloadUrl: "https://drive.google.com/file/d/1iqrubswAlPy1-r1X_N_3FpytP9popj3m/view?usp=drive_link",
     videoUrl: "https://youtu.be/i5A_0UlsifA"
+  },
+  {
+    id: "map-032",
+    name: "Naruto Hỏa Ảnh",
+    image: "assets/32narutohoaanh.jpg",
+    notes: `MAP đã edit : Naruto Hỏa Ảnh
+Hero defen
+
+unlock full hero khóa, hero vip
+hero ẩn gõ: binxeben1-> binxeben7
+
+free 27000 điểm chakra ( tối đa của map )
+
+code: unlockfix : 10k vàng 200 all chỉ số
+
+map gốc trên kênh thevangaming các bác qua đó chơi thử rồi quay nha :v
+nên chơi chay trước cho vui khó quá thì hãy bật fix :v
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
+    downloadUrl: "https://drive.google.com/file/d/1p84_a_dRHyqNM0Nmh04-tmVfp2VPnN8X/view?usp=drive_link",
+    videoUrl: "https://youtu.be/ObQx_hheRl0"
   }
 ];
