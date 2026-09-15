@@ -624,7 +624,7 @@ binxebenwar 5k vàng + gỗ
 
 map gốc trên kênh thevangaming các bác qua đó chơi thử rồi quay nha :v
 nên chơi chay trước cho vui khó quá thì hãy bật fix :v
-mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.,
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
     downloadUrl: "https://drive.google.com/file/d/17h3m_NT-gxFxiW-3Nu47lNiUslflfCTC/view?usp=drive_link",
     videoUrl: "https://youtu.be/6qqQ1wYyUXM"
   }
