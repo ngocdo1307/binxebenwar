@@ -627,5 +627,26 @@ nên chơi chay trước cho vui khó quá thì hãy bật fix :v
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
     downloadUrl: "https://drive.google.com/file/d/17h3m_NT-gxFxiW-3Nu47lNiUslflfCTC/view?usp=drive_link",
     videoUrl: "https://youtu.be/6qqQ1wYyUXM"
+  },
+  {
+    id: "map-034",
+    name: "Ngự Ma Kiếp",
+    image: "assets/34ngumakiep.jpg",
+    notes: `MAP đã edit : Ngự Ma Kiếp
+Hero Defens
+
+unlock các thành tựu gần như full.
+thương thành và lưu trữ quá nhiều mò không hết nổi
+1 số + sẵn 1 số nó ở trong con pet nhớ nhận kẻo quên
+không unlock vip. để mọi người tự khám phá cách chơi
+
+code: unlockfix
+10k vàng, 100 Gỗ, 500 Chỉ số, 10 giết địch
+
+map gốc trên kênh thevangaming các bác qua đó chơi thử rồi quay nha :v
+nên chơi chay trước cho vui khó quá thì hãy bật fix :v
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
+    downloadUrl: "https://drive.google.com/file/d/1bGaj6BBN_95tmj-tcaxDOZf83s-QiGcU/view?usp=drive_link",
+    videoUrl: "https://youtu.be/XhfXi-3iNQw"
   }
 ];
