@@ -648,5 +648,27 @@ nên chơi chay trước cho vui khó quá thì hãy bật fix :v
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
     downloadUrl: "https://drive.google.com/file/d/1bGaj6BBN_95tmj-tcaxDOZf83s-QiGcU/view?usp=drive_link",
     videoUrl: "https://youtu.be/XhfXi-3iNQw"
+  },
+  {
+    id: "map-035",
+    name: "Tiên Đế Truyền Thuyết",
+    image: "assets/35tiendetruyenthuyet.jpg",
+    notes: `MAP đã edit : Tiên Đế Truyền Thuyết
+Hero Defens
+
+unlock các thành tựu,thương thành gần như full. chỉ còn vài cái
+1 số + sẵn 1 số nó ở trong con tướng nhớ nhận kẻo quên
+đã unlock 1 số tướng không vip
+không unlock vip. để mọi người tự khám phá cách chơi
+
+code: unlockfix : giết quái tăng thêm:
+10k vàng, 100 Gỗ, 1K Chỉ số
+giết địch, linh khí x20 lần
+
+map gốc trên kênh thevangaming các bác qua đó chơi thử rồi quay nha :v
+nên chơi chay trước cho vui khó quá thì hãy bật fix :v
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
+    downloadUrl: "https://drive.google.com/file/d/17VQzIu-fAC_ZGQmGWi0qFkefy4L7jjY9/view?usp=drive_link",
+    videoUrl: "https://youtu.be/p3wIFpeEOTM"
   }
 ];
