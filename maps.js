@@ -670,5 +670,28 @@ nên chơi chay trước cho vui khó quá thì hãy bật fix :v
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
     downloadUrl: "https://drive.google.com/file/d/17VQzIu-fAC_ZGQmGWi0qFkefy4L7jjY9/view?usp=drive_link",
     videoUrl: "https://youtu.be/p3wIFpeEOTM"
+  },
+  {
+    id: "map-036",
+    name: "Túy Ẩm Hiệp Khách Hành",
+    image: "assets/36tuyamhiepkhachhanh.jpg",
+    notes: `MAP đã edit : Túy Ẩm Hiệp Khách Hành
+Hero Defens
+
+fix giùm chủ map lỗi load player 6 gây lỗi map hiện bảng đen
+unlock full hero
+unlock 1 số thành tựu,thương thành và 1 số cái linh tinh
+không unlock vip. để mọi người tự khám phá cách chơi
+
+code: unlockfix : giết quái tăng thêm:
+10k vàng, 1k Gỗ, 100 Kill ( giết địch số ), 500 all chỉ số
+Không có tác dụng với quái ở phòng luyện
+( có 1 vài cách fam chỉ số xem video )
+
+map gốc trên kênh thevangaming các bác qua đó chơi thử rồi quay nha :v
+nên chơi chay trước cho vui khó quá thì hãy bật fix :v
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
+    downloadUrl: "https://drive.google.com/file/d/1GEKekdVW3NgsC1dYugODTt549-us2Q4K/view?usp=drive_link",
+    videoUrl: "https://youtu.be/gvbUTlrQ9-8"
   }
 ];
