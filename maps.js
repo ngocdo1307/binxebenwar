@@ -693,5 +693,23 @@ nên chơi chay trước cho vui khó quá thì hãy bật fix :v
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
     downloadUrl: "https://drive.google.com/file/d/1GEKekdVW3NgsC1dYugODTt549-us2Q4K/view?usp=drive_link",
     videoUrl: "https://youtu.be/gvbUTlrQ9-8"
+  },
+  {
+    id: "map-037",
+    name: "Thôn Trang Kỳ Quái",
+    image: "assets/37thontrangkyquai.jpg",
+    notes: `MAP đã edit : Thôn Trang Kỳ Quái
+Sinh Tồn Zombie
+
+code: unlockfix : giết quái tăng thêm:
+10k vàng, 10k Gỗ, 10 Dame sát thương chuẩn, 5 all chỉ số
+( chỉ số Không Tăng DAME nên code tăng dame + thêm sát thương chuẩn )
+
+map gốc trên kênh thevangaming các bác qua đó chơi thử rồi quay nha :v
+nên chơi chay trước cho vui
+bật fix sẽ rất mạnh, rễ chán. khó quá thì hãy bật fix :v
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
+    downloadUrl: "https://drive.google.com/file/d/1goDx-nhyq5ZxLE6bex3p4KjyH3kyHCcS/view?usp=drive_link",
+    videoUrl: "https://youtu.be/DpvhaWWltEE"
   }
 ];
