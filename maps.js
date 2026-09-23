@@ -711,5 +711,25 @@ bật fix sẽ rất mạnh, rễ chán. khó quá thì hãy bật fix :v
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
     downloadUrl: "https://drive.google.com/file/d/1goDx-nhyq5ZxLE6bex3p4KjyH3kyHCcS/view?usp=drive_link",
     videoUrl: "https://youtu.be/DpvhaWWltEE"
+  },
+  {
+    id: "map-038",
+    name: "Thời Đại Băng Sương",
+    image: "assets/38thoidaibangsuong.jpg",
+    notes: `MAP đã edit : Thời Đại Băng Sương
+Sinh Tồn Zombie
+
+đã x10 chỉ số của đồ ( không cần bật fix )
+
+code: binxebenwar1-9
+code: unlockfix : giết quái tăng thêm:
+10k vàng, 10k Gỗ, 100 all chỉ số
+
+map gốc trên kênh thevangaming các bác qua đó chơi thử rồi quay nha :v
+nên chơi chay trước cho vui
+bật fix sẽ rất mạnh, rễ chán. khó quá thì hãy bật fix :v
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
+    downloadUrl: "https://drive.google.com/file/d/14rSrd_qsgbCFMTOt53xNweddL2-9jc9B/view?usp=drive_link",
+    videoUrl: "https://youtu.be/Ke2bW-EMhi0"
   }
 ];
