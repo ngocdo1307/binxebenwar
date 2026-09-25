@@ -754,5 +754,26 @@ bật fix sẽ rất mạnh, rễ chán. khó quá thì hãy bật fix :v
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
     downloadUrl: "https://drive.google.com/file/d/1J3uuslSisJaD6mAC9J48vY3nHR_baUix/view?usp=drive_link",
     videoUrl: "https://youtu.be/1fwiLXcaVmA"
+  },
+  {
+    id: "map-040",
+    name: "Xe Tăng Đạn Dược",
+    image: "assets/40xetangdanduoc.jpg",
+    notes: `MAP đã edit : Xe Tăng Đạn Dược
+hero desfens
+
+mặc định đã x500% exp không cần kích hoạt
+
+code: binxebenwar1-3
+code: unlockfix : giết quái tăng thêm:
+100 vàng, 100 Gỗ, 9 all chỉ số, 10 giết địch số, 1 bánh răng
+không hiện thông báo nữa đỡ rối mắt
+
+map gốc trên kênh thevangaming các bác qua đó chơi thử rồi quay nha :v
+nên chơi chay trước cho vui
+bật fix sẽ rất mạnh, rễ chán. khó quá thì hãy bật fix :v
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
+    downloadUrl: "https://drive.google.com/file/d/1d9CBdARPtmLndgcnko-S80JIa4NIvXrq/view?usp=drive_link",
+    videoUrl: "https://youtu.be/KmdBtkGCo_k"
   }
 ];
