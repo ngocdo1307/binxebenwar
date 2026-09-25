@@ -731,5 +731,28 @@ bật fix sẽ rất mạnh, rễ chán. khó quá thì hãy bật fix :v
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
     downloadUrl: "https://drive.google.com/file/d/14rSrd_qsgbCFMTOt53xNweddL2-9jc9B/view?usp=drive_link",
     videoUrl: "https://youtu.be/Ke2bW-EMhi0"
+  },
+  {
+    id: "map-039",
+    name: "Thiên Thượng Kiếm Tiên",
+    image: "assets/39thienthuongkiemtien.jpg",
+    notes: `MAP đã edit : Thiên Thượng Kiếm Tiên
+hero desfens
+
+x100 vip
+fix 1 tỷ thứ thẻ bài cấp vip x100 hết nên rất mạnh rồi
+chắc khong cần code fix, chỉ việc chơi thôi
+
+code: binxebenwar1-3
+
+code: unlockfix : giết quái tăng thêm:
+10k vàng, 1k Gỗ, 1k all chỉ số 10 kill
+
+map gốc trên kênh thevangaming các bác qua đó chơi thử rồi quay nha :v
+nên chơi chay trước cho vui
+bật fix sẽ rất mạnh, rễ chán. khó quá thì hãy bật fix :v
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
+    downloadUrl: "https://drive.google.com/file/d/1J3uuslSisJaD6mAC9J48vY3nHR_baUix/view?usp=drive_link",
+    videoUrl: "https://youtu.be/1fwiLXcaVmA"
   }
 ];
