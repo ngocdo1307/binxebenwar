@@ -775,5 +775,70 @@ bật fix sẽ rất mạnh, rễ chán. khó quá thì hãy bật fix :v
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
     downloadUrl: "https://drive.google.com/file/d/1d9CBdARPtmLndgcnko-S80JIa4NIvXrq/view?usp=drive_link",
     videoUrl: "https://youtu.be/KmdBtkGCo_k"
+  },
+  {
+    id: "map-041",
+    name: "Vô Hạn Khủng Bố",
+    image: "assets/41vohankhungbo.jpg",
+    notes: `MAP đã edit : Vô Hạn Khủng Bố
+RPG đi ải
+
+code: unlockfix : giết quái tăng thêm:
++1000 kịch bản điểm,ban thưởng điểm , +10 all chỉ số, +10 dame,giáp,hp
+( đã ẩn thông báo )
+mình ít chơi thể thoại rpg nên chẳng hiểu gì
+chỉ biết qua được ải đầu là vô địch thiên hạ
+
+map gốc trên kênh thevangaming các bác qua đó chơi thử rồi quay nha :v
+nên chơi chay trước cho vui
+bật fix sẽ rất mạnh, rễ chán. khó quá thì hãy bật fix :v
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
+    downloadUrl: "https://drive.google.com/file/d/1EV8utO8LXbsdhqkNbN7fAncNwYI-oH8L/view?usp=drive_link",
+    videoUrl: "https://youtu.be/ddZekCeAvgg"
+  },
+  {
+    id: "map-042",
+    name: "Quy Khư Chi Cảnh",
+    image: "assets/42quykhuchicanh.jpg",
+    notes: `MAP đã edit : Quy Khư Chi Cảnh
+Hero Defens
+
+mặc định map đã unlock 1 tỷ thứ.
+tích lũy, vật phẩm đã nâng lên hết 100 ( vừa phải để không quá mạnh )
+
+code map: binxebenwar1, binxebenwar2
+code: unlockfix : giết quái tăng thêm:
++1000 Vàng, 100 Gỗ, 10 Giết địch, 10 Tu vi
+( đã ẩn thông báo )
+
+map gốc trên kênh thevangaming các bác qua đó chơi thử rồi quay nha :v
+nên chơi chay trước cho vui
+bật fix sẽ rất mạnh, rễ chán. khó quá thì hãy bật fix :v
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
+    downloadUrl: "https://drive.google.com/file/d/1UxVwobX3tV_Ho-wVYtQ1IuwvXVLXY5BY/view?usp=drive_link",
+    videoUrl: "https://youtu.be/LzqAFkhYQmc"
+  },
+  {
+    id: "map-043",
+    name: "Anime Huyền Vũ",
+    image: "assets/43animehuyenvu.jpg",
+    notes: `MAP đã edit : Anime Huyền Vũ
+luyện cấp ép trang bị
+
+mặc định map đã unlock 1 tỷ thứ.
+tích lũy, vật phẩm đã nâng lên hết 100
+mặc định đã rất mạnh không cần code
+
+code map: binxebenwar
+code: unlockfix : giết quái tăng thêm:
++1000 Vàng, 10 Gỗ, 20 All chỉ số
+( đã ẩn thông báo )
+
+map gốc trên kênh thevangaming các bác qua đó chơi thử rồi quay nha :v
+nên chơi chay trước cho vui
+bật fix sẽ rất mạnh, rễ chán. khó quá thì hãy bật fix :v
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
+    downloadUrl: "https://drive.google.com/file/d/1tvLJ61niZxRgD8Ts58SRgZB7mFmHB_LD/view?usp=drive_link",
+    videoUrl: "https://youtu.be/-6Rk3xisPY8"
   }
 ];
