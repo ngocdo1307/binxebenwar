@@ -840,5 +840,32 @@ bật fix sẽ rất mạnh, rễ chán. khó quá thì hãy bật fix :v
 mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
     downloadUrl: "https://drive.google.com/file/d/1tvLJ61niZxRgD8Ts58SRgZB7mFmHB_LD/view?usp=drive_link",
     videoUrl: "https://youtu.be/-6Rk3xisPY8"
+  },
+  {
+    id: "map-044",
+    name: "Ảo Mộng Danh Tướng Lục",
+    image: "assets/44aomongdanhtuongluc.jpg",
+    notes: `MAP đã edit : Ảo Mộng Danh Tướng Lục
+Hero Defen
+
+mặc định đã unlock 1 tỷ thứ thương thành.....Full hero 
+có cái hiện sáng hoặc không nhưng đã unlock vào hero hết rồi
+mặc định map đã set 5000 điểm tích lũy
+đã x10 phần thưởng hồng bao và vô vàn cái khác kể không hết
+
+code map: binxebenwar
+code: unlockfix : giết quái tăng thêm:
++1000 Vàng, 10 Linh Thạch, 10 All chỉ số , 10 Giết địch
+( đã ẩn thông báo )
+
+map lỗi ăn sách tăng lever ở nhà chính không được bấm vào
+(max cấp 10.000 thì bấm được)
+
+map gốc trên kênh thevangaming các bác qua đó chơi thử rồi quay nha :v
+nên chơi chay trước cho vui
+bật fix sẽ rất mạnh, rễ chán. khó quá thì hãy bật fix :v
+mình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.`,
+    downloadUrl: "https://drive.google.com/file/d/15QjYI3P0YDt1afUiDsEg_KSVC0-AHxye/view?usp=drive_link",
+    videoUrl: "https://youtu.be/YelzdIfdfwI"
   }
 ];
