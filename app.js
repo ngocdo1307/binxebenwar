@@ -158,4 +158,26 @@ searchInput.addEventListener("input", e => {
 
 document.getElementById("year").textContent = new Date().getFullYear();
 
-render();
+let MAPS = [];
+
+async function loadMaps() {
+  try {
+    const res = await fetch("./data/maps-index.json", { cache: "no-cache" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    if (!Array.isArray(data)) throw new Error("maps-index.json không phải mảng JSON");
+    MAPS = data;
+    render();
+  } catch (err) {
+    console.error("Lỗi tải danh sách map:", err);
+    grid.innerHTML = "";
+    emptyState.classList.remove("hidden");
+    emptyState.innerHTML = `
+      <h3>Không tải được danh sách map</h3>
+      <p>Kiểm tra thư mục <b>data/maps</b> và file <b>data/maps-index.json</b>.</p>
+      <small>Mở website qua GitHub Pages/Netlify hoặc máy chủ HTTP, không mở index.html bằng file://.</small>
+    `;
+  }
+}
+
+loadMaps();
