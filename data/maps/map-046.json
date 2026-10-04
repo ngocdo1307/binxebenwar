@@ -1,0 +1,8 @@
+{
+    "id": "map-046",
+    "name": "Thần Thoại: Độc Bộ Thiên Hạ",
+    "image": "assets/46thanthoaidocbothienha.jpg",
+    "notes": "MAP đã edit : Thần Thoại: Độc Bộ Thiên Hạ\nRPG - Vượt Ải Kiếm Trang Bị\n\nmặc định đã tăng map exp x10 lần đã xóa anti map\n\ncode: unlockfix : giết quái tăng thêm:\n+200 vàng, 2 Vàng Binh Khí Chi Linh, 20 all chỉ số\n( đã ẩn thông báo - chỉ hiện 1 lần khi kích hoạt )\nlưu ý map sẽ không lưu lại dữ liệu được tăng thêm bởi unlockfix khi load ván mới\nmình có thể sửa nhưng map cày cuốc nên để nguyên vậy chứ để nó + dồn thì quá mạnh\n\nmap gốc trên kênh thevangaming các bác qua đó chơi thử rồi quay nha :v\nnên chơi chay trước cho vui\nbật fix sẽ rất mạnh, rễ chán. khó quá thì hãy bật fix :v\nmình chơi và test trên 1.27dz các bạn có thể thử ở các bản war khác.",
+    "downloadUrl": "https://drive.google.com/file/d/1OQW9uriMhoOle8jbF43Akft547dqeCa2/view?usp=drive_link",
+    "videoUrl": "https://youtu.be/ch6V6_Lc0Dw"
+  }
