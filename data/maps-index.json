@@ -218,5 +218,10 @@
     "id": "map-044",
     "name": "Ảo Mộng Danh Tướng Lục",
     "image": "assets/44aomongdanhtuongluc.jpg"
+  },
+  {
+    "id": "map-045",
+    "name": "Khoái Y Tu Tiên",
+    "image": "assets/45khoaiytutien.jpg"
   }
 ]
