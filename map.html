@@ -26,7 +26,77 @@
   </div>
 </footer>
 
-<script src="maps.js"></script>
+<script>
+const params = new URLSearchParams(location.search);
+const id = params.get("id");
+const detail = document.getElementById("detail");
+const page = Number(params.get("page")) || 1;
+
+document.getElementById("backBtn").href =
+  page > 1 ? `index.html?page=${page}` : "index.html";
+
+function esc(v) {
+  return String(v ?? "").replace(/[&<>"']/g, c => ({
+    "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#039;"
+  }[c]));
+}
+
+async function loadMap() {
+  if (!id) {
+    detail.innerHTML = `<div class="empty"><h2>Không tìm thấy map</h2><p>Thiếu ID map.</p></div>`;
+    return;
+  }
+
+  try {
+    const res = await fetch(`./data/maps/${encodeURIComponent(id)}.json`, { cache: "no-cache" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const map = await res.json();
+
+    document.title = map.name + " - War3 Maps";
+    detail.innerHTML = `
+      <article class="detail-card">
+        <div class="detail-image">
+          <img src="${esc(map.image)}"
+               alt="${esc(map.name)}"
+               onerror="this.src='assets/placeholder.svg'">
+        </div>
+
+        <div class="detail-info">
+          <h1>${esc(map.name)}</h1>
+          <div class="notes">
+            ${map.notes ? esc(map.notes).replace(/\n/g, "<br>") : "Chưa có ghi chú cho map này."}
+          </div>
+
+          <div class="action-buttons">
+            ${map.downloadUrl ? `
+              <a class="download-btn" href="${esc(map.downloadUrl)}" target="_blank" rel="noopener noreferrer">
+                ↓ DOWNLOAD
+              </a>` : ""}
+            ${map.downloadUrl2 ? `
+              <a class="download-btn" href="${esc(map.downloadUrl2)}" target="_blank" rel="noopener noreferrer">
+                ↓ DOWNLOAD v2
+              </a>` : ""}
+            ${map.videoUrl ? `
+              <a class="video-btn" href="${esc(map.videoUrl)}" target="_blank" rel="noopener noreferrer">
+                ▶ XEM VIDEO HƯỚNG DẪN
+              </a>` : ""}
+          </div>
+        </div>
+      </article>
+    `;
+  } catch (err) {
+    console.error("Lỗi tải map:", err);
+    detail.innerHTML = `
+      <div class="empty">
+        <h2>Không tải được dữ liệu map</h2>
+        <p>Kiểm tra file <b>data/maps/${esc(id)}.json</b>.</p>
+      </div>`;
+  }
+}
+
+document.getElementById("year").textContent = new Date().getFullYear();
+loadMap();
+</script>
 <script>
 const id = new URLSearchParams(location.search).get("id");
 const map = MAPS.find(m => m.id === id);
@@ -71,7 +141,7 @@ if (!map) {
      rel="noopener noreferrer">
      ↓ DOWNLOAD
   </a>
-  ${map.downloadUrl2 ? `
+    ${map.downloadUrl2 ? `
     <a class="download-btn"
        href="${esc(map.downloadUrl2)}"
        target="_blank"
@@ -79,7 +149,6 @@ if (!map) {
        ↓ DOWNLOAD v2
     </a>
   ` : ""}
-
   ${map.videoUrl ? `
     <a class="video-btn"
        href="${esc(map.videoUrl)}"
