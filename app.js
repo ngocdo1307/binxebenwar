@@ -122,7 +122,12 @@ function renderPagination(totalPages) {
 }
 
 function render() {
-  const maps = [...getFilteredMaps()].reverse();
+  const maps = [...getFilteredMaps()].sort((a, b) => {
+  const numA = parseInt(a.id.replace("map-", ""), 10);
+  const numB = parseInt(b.id.replace("map-", ""), 10);
+
+  return numB - numA;
+});
   const totalPages = Math.max(1, Math.ceil(maps.length / PER_PAGE));
 
   if (currentPage > totalPages) currentPage = totalPages;
