@@ -238,5 +238,10 @@
     "id": "map-048",
     "name": "Vân Trang Ma Thú",
     "image": "assets/48vantrangmathu.jpg"
+  },
+  {
+    "id": "map-049",
+    "name": "Thất Giới Thần Thoại",
+    "image": "assets/49thatgioithanthoai.jpg"
   }
 ]
