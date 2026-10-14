@@ -1,5 +1,15 @@
 [
   {
+    "id": "map-052",
+    "name": "Chính Đạo Thành Tiên",
+    "image": "assets/52chinhdaothanhtien.jpg"
+  },  
+  {
+    "id": "map-051",
+    "name": "Bách Biến Anh Linh",
+    "image": "assets/51bachbienanhlinh.jpg"
+  },
+  {
     "id": "map-001",
     "name": "Cổ Thần Vãn Ca",
     "image": "assets/1cothanvanca.jpg"
