@@ -3,8 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Map - War3 Maps</title>
-   <link rel="icon" type="image/png" href="/favicon.png">
+  <meta name="description" content="Thông tin, hình ảnh, ghi chú và liên kết tải bản đồ Warcraft III trong kho BINXEBEN.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://binxebenwar.netlify.app/map.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="BINXEBEN - Warcraft III Maps">
+  <meta property="og:title" content="Warcraft III Map | BINXEBEN">
+  <meta property="og:description" content="Thông tin và tải bản đồ Warcraft III tại BINXEBEN.">
+  <meta property="og:url" content="https://binxebenwar.netlify.app/map.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Warcraft III Map | BINXEBEN</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -42,6 +50,51 @@ function esc(v) {
   }[c]));
 }
 
+// SEO metadata is updated from the same JSON record already used by this page.
+function updateMapSEO(map) {
+  const title = `${map.name} - Warcraft III Map | BINXEBEN`;
+  const plainNotes = String(map.notes ?? "")
+    .replace(/<[^>]*>/g, " ")
+    .replace(/\\s+/g, " ")
+    .trim();
+  const description = (plainNotes || `Thông tin và tải bản đồ Warcraft III ${map.name} tại BINXEBEN.`)
+    .slice(0, 155);
+  const pageUrl = `https://binxebenwar.netlify.app/map.html?id=${encodeURIComponent(map.id || id)}`;
+  const imageUrl = map.image
+    ? new URL(map.image, "https://binxebenwar.netlify.app/").href
+    : "https://binxebenwar.netlify.app/assets/anhnen.jpg";
+
+  document.title = title;
+  const setMeta = (selector, value, attr = "content") => {
+    const element = document.querySelector(selector);
+    if (element) element.setAttribute(attr, value);
+  };
+  setMeta('meta[name="description"]', description);
+  setMeta('link[rel="canonical"]', pageUrl, "href");
+  setMeta('meta[property="og:title"]', title);
+  setMeta('meta[property="og:description"]', description);
+  setMeta('meta[property="og:url"]', pageUrl);
+  setMeta('meta[property="og:image"]', imageUrl);
+
+  let structuredData = document.getElementById("mapStructuredData");
+  if (!structuredData) {
+    structuredData = document.createElement("script");
+    structuredData.type = "application/ld+json";
+    structuredData.id = "mapStructuredData";
+    document.head.appendChild(structuredData);
+  }
+  structuredData.textContent = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": map.name,
+    "description": description,
+    "url": pageUrl,
+    "image": imageUrl,
+    "inLanguage": "vi",
+    "genre": "Warcraft III custom map"
+  });
+}
+
 async function loadMap() {
   if (!id) {
     detail.innerHTML = `<div class="empty"><h2>Không tìm thấy map</h2><p>Thiếu ID map.</p></div>`;
@@ -53,7 +106,7 @@ async function loadMap() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const map = await res.json();
 
-    document.title = map.name + " - War3 Maps";
+    updateMapSEO(map);
     detail.innerHTML = `
       <article class="detail-card">
         <div class="detail-image">
@@ -89,82 +142,14 @@ async function loadMap() {
     console.error("Lỗi tải map:", err);
     detail.innerHTML = `
       <div class="empty">
-        <h2>MAP ĐANG ĐƯỢC CẬP NHẬT</h2>
-        <p>vui lòng đợi update</p>
+        <h2>Không tải được dữ liệu map</h2>
+        <p>Kiểm tra file <b>data/maps/${esc(id)}.json</b>.</p>
       </div>`;
   }
 }
 
 document.getElementById("year").textContent = new Date().getFullYear();
 loadMap();
-</script>
-<script>
-const id = new URLSearchParams(location.search).get("id");
-const map = MAPS.find(m => m.id === id);
-const detail = document.getElementById("detail");
-const page = Number(new URLSearchParams(location.search).get("page")) || 1;
-
-document.getElementById("backBtn").href =
-  page > 1 ? `index.html?page=${page}` : "index.html";
-function esc(v) {
-  return String(v ?? "").replace(/[&<>"']/g, c => ({
-    "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#039;"
-  }[c]));
-}
-
-if (!map) {
-  detail.innerHTML = `
-    <div class="empty">
-      <h2>Không tìm thấy map</h2>
-      <p>Map này không tồn tại.</p>
-    </div>`;
-} else {
-  document.title = map.name + " - War3 Maps";
-  detail.innerHTML = `
-    <article class="detail-card">
-      <div class="detail-image">
-        <img src="${esc(map.image)}"
-             alt="${esc(map.name)}"
-             onerror="this.src='assets/placeholder.svg'">
-      </div>
-
-      <div class="detail-info">
-        <h1>${esc(map.name)}</h1>
-
-        <div class="notes">
-          ${map.notes ? esc(map.notes).replace(/\n/g, "<br>") : "Chưa có ghi chú cho map này."}
-        </div>
-
-        <div class="action-buttons">
-  <a class="download-btn"
-     href="${esc(map.downloadUrl)}"
-     target="_blank"
-     rel="noopener noreferrer">
-     ↓ DOWNLOAD
-  </a>
-    ${map.downloadUrl2 ? `
-    <a class="download-btn"
-       href="${esc(map.downloadUrl2)}"
-       target="_blank"
-       rel="noopener noreferrer">
-       ↓ DOWNLOAD v2
-    </a>
-  ` : ""}
-  ${map.videoUrl ? `
-    <a class="video-btn"
-       href="${esc(map.videoUrl)}"
-       target="_blank"
-       rel="noopener noreferrer">
-       ▶ XEM VIDEO HƯỚNG DẪN
-    </a>
-  ` : ""}
-</div>
-      </div>
-    </article>
-  `;
-}
-
-document.getElementById("year").textContent = new Date().getFullYear();
 </script>
 </body>
 </html>
