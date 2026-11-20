@@ -1,5 +1,30 @@
 [
   {
+    "id": "map-068",
+    "name": "Kỳ Tích Hạp Cốc",
+    "image": "assets/68kytichhapcoc.jpg"
+  },
+  {
+    "id": "map-067",
+    "name": "Anime Truyền Kỳ",
+    "image": "assets/67animetruyenky.jpg"
+  },
+  {
+    "id": "map-066",
+    "name": "Chủng Tộc Quyết Đấu",
+    "image": "assets/66chungtocquyetdau.jpg"
+  },
+  {
+    "id": "map-065",
+    "name": "Đốn Củi Thế Giới",
+    "image": "assets/65doncuithegioi.jpg"
+  },
+  {
+    "id": "map-064",
+    "name": "Đô Đô Truyền Kỳ",
+    "image": "assets/64dodotruyenky.jpg"
+  },
+  {
     "id": "map-063",
     "name": "Tiến Hóa TD",
     "image": "assets/63tienhoatd.jpg"
